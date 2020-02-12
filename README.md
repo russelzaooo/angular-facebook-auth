@@ -10,7 +10,7 @@ npm install --save angularx-social-login
 
 ## 2 - Configurar o Provider do Facebook
 
-Abra o arquivo *app.module.ts*
+Abra o arquivo **app.module.ts**
 
 ~~~javascript
 ...
@@ -45,10 +45,9 @@ Ainda no arquivo **app.module.ts**, adicione o seguinte array de Providers dentr
 ## 3 - Declarando os métodos de Login e Logout
 
 Abra o arquivo *app.component.ts*.
-Dentro da classe criamos as variáveis de autenticação:
+Dentro da classe, criar as variáveis de autenticação:
 
 ~~~javascript
-title = 'angular-fblogin';
 user: SocialUser;
 loggedIn: boolean;
 ~~~
@@ -59,7 +58,7 @@ Declarar o AuthService dentro do construtor:
 constructor(private authService: AuthService) { }
 ~~~
 
-Ao iniciar o component, verificamos se o mesmo já está logado:
+Ao iniciar o component, verificamos se o usuário já está logado:
 
 ~~~javascript
 ngOnInit() {
