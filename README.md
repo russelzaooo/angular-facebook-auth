@@ -44,8 +44,7 @@ Ainda no arquivo **app.module.ts**, adicione o seguinte array de Providers dentr
 
 ## 3 - Declarando os métodos de Login e Logout
 
-Abra o arquivo *app.component.ts*.
-Dentro da classe, criar as variáveis de autenticação:
+Abra o arquivo **app.component.ts** para criar as variáveis de autenticação:
 
 ~~~javascript
 user: SocialUser;
